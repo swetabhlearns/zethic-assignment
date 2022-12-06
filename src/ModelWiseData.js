@@ -7,7 +7,6 @@ const ModelWiseData = ({ modelWiseUserData }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(10);
 
-  console.log(Object.keys(modelWiseUserData));
   const data = Object.keys(modelWiseUserData);
 
   const paginate = (pageNumber) => {
