@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@400;500&family=Open+Sans&family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  border: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pie-container {
+  max-width: 1500px;
+  max-height: 800px;
+  padding: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.model-wise-data {
+  width: 500px;
+  height: 300px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.model-wise-data img {
+  width: 300px;
+  height: 200px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.user {
+  height: 100px;
+  width: 300px;
+  background: black;
   color: white;
+  padding: 30px 30px;
+  margin: 30px auto;
 }
-
-.App-link {
-  color: #61dafb;
+.pagination {
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  width: 10px;
+  padding: 20px;
+  margin: 10px;
 }

@@ -1,0 +1,23 @@
+.sidebar-info {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-items: flex-start;
+  background-color: black;
+  color: wheat;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-items: flex-start;
+}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  background: blue;
+  color: white;
+}
